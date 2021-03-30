@@ -9,6 +9,3 @@ puts "----------"
 @store1.update(name: "Kitsilano")
 
 @store2 = Store.where(id: 2)
-
-p @store1
-p @store2
