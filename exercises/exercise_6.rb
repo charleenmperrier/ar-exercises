@@ -18,13 +18,12 @@ class Store < ActiveRecord::Base
 end
 
 @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
-@store1.employees.create(first_name: "K", last_name: "V", hourly_rate: 6)
+@store1.employees.create(first_name: "K", last_name: "V", hourly_rate: 60)
 @store1.employees.create(first_name: "m", last_name: "i", hourly_rate: 600)
 @store1.employees.create(first_name: "Km", last_name: "Vi", hourly_rate: 50)
 
-
-@store2.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 50)
-@store2.employees.create(first_name: "Kh", last_name: "Vii", hourly_rate: 50)
-@store2.employees.create(first_name: "am", last_name: "ni", hourly_rate: 60)
-@store2.employees.create(first_name: "Krram", last_name: "Viri", hourly_rate: 60)
+@store2.employees.create(first_name: "A", last_name: "Foo", hourly_rate: 60)
+@store2.employees.create(first_name: "B", last_name: "Bar", hourly_rate: 70)
+@store2.employees.create(first_name: "C", last_name: "Baz", hourly_rate: 80)
+@store2.employees.create(first_name: "D", last_name: "Qux", hourly_rate: 90)
 
